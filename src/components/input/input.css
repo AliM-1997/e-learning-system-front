@@ -1,0 +1,12 @@
+.input {
+  border-radius: 5px;
+  padding: 8px;
+  width: 80dvw;
+  margin: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 60;
+}

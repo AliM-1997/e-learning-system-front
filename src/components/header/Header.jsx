@@ -9,8 +9,8 @@ const Header = () => {
     <div className=" flex header my-nav ">
       <div className="logo bold ">e-learning</div>
       <div className="flex link-container">
-        <Link className="nav-link" to="/add-class">
-          Add Class
+        <Link className="nav-link" to="/add-course">
+          Add Course
         </Link>
         <Link className="nav-link" to="/list-users">
           List users
@@ -18,7 +18,7 @@ const Header = () => {
         <Link className="nav-link" to="/upload-file">
           Upload File
         </Link>
-        <Link className="nav-link" to="/withdrawal-requests">
+        <Link className="nav-link" to="/withdraw">
           Withdrawal Requests
         </Link>
       </div>

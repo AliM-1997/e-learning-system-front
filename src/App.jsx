@@ -9,6 +9,8 @@ import Login from "./pages/login/Login";
 import store from "./redux/store";
 import Home from "./pages/home/Home";
 import Signup from "./pages/signup/Signup";
+import FileUpload from "./pages/uploadFile/File";
+import ListUsers from "./pages/listUsers/ListUsers";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/upload-file" element={<FileUpload />} />
+            <Route path="list-users" element={<ListUsers />} />
           </Route>
         </Routes>
       </Router>

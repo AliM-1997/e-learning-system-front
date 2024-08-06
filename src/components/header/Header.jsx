@@ -12,8 +12,8 @@ const Header = () => {
         <Link className="nav-link" to="/add-class">
           Add Class
         </Link>
-        <Link className="nav-link" to="/list-students">
-          List Students
+        <Link className="nav-link" to="/list-users">
+          List users
         </Link>
         <Link className="nav-link" to="/upload-file">
           Upload File

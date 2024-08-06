@@ -12,13 +12,13 @@ const Header = () => {
         <Link className="nav-link" to="/add-course">
           Add Course
         </Link>
-        <Link className="nav-link" to="/list-users">
-          List users
+        <Link className="nav-link" to="/list-classes">
+          List classes
         </Link>
         <Link className="nav-link" to="/upload-file">
           Upload File
         </Link>
-        <Link className="nav-link" to="/withdraw">
+        <Link className="nav-link" to="/withdrawal">
           Withdrawal Requests
         </Link>
       </div>

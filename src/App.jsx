@@ -10,9 +10,9 @@ import store from "./redux/store";
 import Home from "./pages/home/Home";
 import Signup from "./pages/signup/Signup";
 import FileUpload from "./pages/uploadFile/File";
-import ListUsers from "./pages/listUsers/ListUsers";
+import ListClasses from "./pages/ListClasses/ListClasses";
 import AddCourse from "./pages/addCourse/AddCourse";
-import WithDraw from "./pages/withDrawal/WithDraw";
+import WithDrawal from "./pages/withDrawal/WithDrawal";
 function App() {
   return (
     <Provider store={store}>
@@ -24,9 +24,9 @@ function App() {
             <Route path="login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/upload-file" element={<FileUpload />} />
-            <Route path="list-users" element={<ListUsers />} />
+            <Route path="list-classes" element={<ListClasses />} />
             <Route path="/add-course" element={<AddCourse />} />
-            <Route path="/withdraw" element={<WithDraw />} />
+            <Route path="/withdrawal" element={<WithDrawal />} />
           </Route>
         </Routes>
       </Router>

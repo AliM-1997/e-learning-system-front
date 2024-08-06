@@ -2,8 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const Home = () => {
-  const state = useSelector((global) => global.user);
-  console.log(state);
+  const state = useSelector((global) => global);
+  console.log("tessting from home", state);
   return <div>hello</div>;
 };
 

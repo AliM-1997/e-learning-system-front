@@ -1,0 +1,24 @@
+.nav-btn {
+  width: 100px;
+  /* background-color: blue; */
+}
+
+.header {
+  /* background-color: aqua; */
+  gap: 20px;
+}
+
+.my-nav {
+  justify-content: space-between;
+  padding: 5px 5px;
+  margin: 5px;
+}
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Make link text bold */
+}
+.link-container {
+  gap: 20px;
+}
+.nav-btn {
+}

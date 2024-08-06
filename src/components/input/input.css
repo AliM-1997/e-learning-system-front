@@ -1,12 +1,16 @@
-.input {
-  border-radius: 5px;
-  padding: 8px;
-  width: 80dvw;
-  margin: 10px;
+.my-input {
+  align-items: flex-start;
+  gap: 5px;
 }
 
-.input-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 60;
+.my-input > label {
+  font-size: 12px;
+}
+
+.my-input > input {
+  border: 1px solid grey;
+  padding: 2px 8px;
+  font-size: 12px;
+  height: 35px;
+  outline: none;
 }

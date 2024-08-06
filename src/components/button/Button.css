@@ -1,7 +1,11 @@
-.btn {
-  padding: 8px;
-  border-radius: 5px;
-  width: 80dvw;
-  margin: 10px;
-  background-color: aqua;
+.button {
+  padding: 10px 30px;
 }
+
+/* .width {
+  width: 10px;
+} */
+
+/* .width-auto {
+  width: auto;
+} */

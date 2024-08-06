@@ -8,10 +8,10 @@ export default function Input({
   value,
 }) {
   return (
-    <div className="input-container">
-      <label>{name}</label>
+    <div className="flex column full-width my-input">
+      <label className="bold black-text">{name}</label>
       <input
-        className="input"
+        className="rounded full-width"
         name={name}
         placeholder={placeholder}
         value={value}

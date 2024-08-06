@@ -1,9 +1,21 @@
+import React from "react";
 import "./Button.css";
 
-export default function Button({ text, onClick }) {
+const Button = ({
+  text,
+  onMouseClick,
+  bgColor = "primary-bg",
+  textColor = "white-t",
+  width = "full-width",
+}) => {
   return (
-    <button className="btn " onClick={onClick}>
+    <button
+      onClick={onMouseClick}
+      className={`flex center rounded clickable ${bgColor} ${textColor} bold ${width} button`}
+    >
       {text}
     </button>
   );
-}
+};
+
+export default Button;
